@@ -1,0 +1,90 @@
+div{
+    text-align: center;
+}
+
+
+a:visited{
+    text-decoration-color: purple;
+}
+
+a{
+    text-decoration-color: blue;
+    text-decoration-thickness: 2px;
+
+
+}
+
+ul, ol {
+    display:inline-block;
+    text-align: left;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 3px;
+}
+
+td {
+    padding: 3px;
+}
+
+@counter-style edu-emoji {
+    system: cyclic;
+    symbols: "🎓" "📜" "📜" "📜" "🎓";
+    suffix: " ";
+}
+
+@counter-style hobb-emoji {
+    system: cyclic;
+    symbols: "🌱" "🐟" "🎮" "📈" "📚";
+    suffix: " ";
+}
+@counter-style work-emoji {
+    system: cyclic;
+    symbols: "🌐" "📝" "🛠️";
+    suffix: " ";
+}
+
+#edu {
+    list-style-type: edu-emoji;
+}
+
+#hobb {
+    list-style-type: hobb-emoji;
+}
+
+#work {
+    list-style-type: work-emoji;
+}
+
+.self_circle{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 70%;
+}
+
+.self_img{
+    display: inline;
+    margin: 0 auto;
+    margin-left: 0%;
+    height: 90%;
+    width: auto;
+}
+
+label{
+    margin-left: auto;
+    margin-right: auto;
+    display:block;}
+textarea{
+    margin-left: auto;
+    margin-right: auto;
+    display:block;}
+input{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
