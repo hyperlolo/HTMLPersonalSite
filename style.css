@@ -14,6 +14,15 @@ a{
 
 }
 
+hr {
+    background-color: none;
+    border-color: lightgrey;
+    border-width: 5px;
+    width: 5%;
+    border-style: dotted none none none;
+
+}
+
 ul, ol {
     display:inline-block;
     text-align: left;
