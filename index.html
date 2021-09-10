@@ -1,156 +1,62 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Karanjit's Site</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karanjit Gill</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="icon" href="./images/straw.ico">
 </head>
 
 <body>
-    <!-- Home page title -->
-    <div id="homeTitle">
-        <h1>Welcome to Karanjit's Site</h1>
-
+    <div class="topCont">
+        <img class = "cloud-top" src="./images/cloud.png" alt="cloud-img">
+        <h1 id = "name">I'm Karanjit.</h1>
+        <img class = "cloud-bot" src="./images/cloud.png" alt="cloud-img">
+        <h2 id = "job">a <span class="pro">pro</span>grammer.</h2>
+    </div>
+    <div class="midCont">
+        <div class="profile">
+          <img id = "self-img" src="./images/self_circle.png" alt="Picture of Karanjit">
+          <h2>Hello.</h2>
+          <p>I am a developer, I have an interest in full stack development, both web development and software development.<br/>I hope you have a wonderful rest of your day!</p>
+        </div>
         <hr>
-    </div>
-    <!-- Start of small self bio and image -->
-    <table>
-        <tr>
-            <td>
-                <div class="self_circle">
-                    <img class="self_img" alt="Karanjit Profile Picture" src="./img/self_circle.png">
-                </div>
-            </td>
-            <td>
-                <h2>Karanjit Gill</h2>
-                <p>Junior Software Developer</p>
-                <p>Hello! I am a recent grad, and I love to learn and solve problems!</p>
-            </td>
-        </tr>
-    </table>
-    <hr>
-    <!-- Start of education section -->
-    <div id="education">
-        <table>
-            <caption>
-                <h2>My Education History</h2>
-            </caption>
-            <thead>
-                <th>Date</th>
-                <th>Location</th>
-                <th>Degree</th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>2020</td>
-                    <td>California State University Stanislaus</td>
-                    <td>Bachelor of Science in Computer Science</td>
-                </tr>
-                <tr>
-                    <td>2019</td>
-                    <td>Merced Community College</td>
-                    <td>Associates in Mathematics</td>
-                </tr>
-                <tr>
-                    <td>2019</td>
-                    <td>Merced Community College</td>
-                    <td>Associates in Physics</td>
-                </tr>
-                <tr>
-                    <td>2014</td>
-                    <td>Golden Valley High School</td>
-                    <td>High School Diploma</td>
-                </tr>
-            </tbody>
-            <tfoot>
-            </tfoot>
-        </table>
-    </div>
-    <hr>
-    <!-- Link to hobbies page -->
-    <div id=hobbies_link>
-        <a href="./pages/hobbies.html">
-            <h2>My Hobbies</h2>
-        </a>
-    </div>
-    <hr>
-    <!-- Start of work history -->
-    <table>
-        <caption>
-            <h2>My Work History</h2>
-        </caption>
-        <thead>
-            <th>Date</th>
-            <th>Work</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>07/2020-Current</td>
-                <td>Wordpress Developer/Designer at Luxury Websites</td>
-            </tr>
-            <tr>
-                <td>06/2017-08/2017 </td>
-                <td>Front Desk Night Auditor at Merced Inn and Suites</td>
-            </tr>
-            <tr>
-                <td>06/2016- 08/2016</td>
-                <td>Handy Man at Quality Inn</td>
-            </tr>
-        </tbody>
-        <tfoot>
-
-        </tfoot>
-    </table>
-    <hr>
-    <!-- Start of skills list -->
-    <table>
-        <caption>
-            <h2>Skills</h2>
-        </caption>
-        <tr>
-            <td>Java</td>
-            <td>Python</td>
-            <td>Git</td>
-            
-        </tr>
-        <tr>
-            <td>HTML</td>
-            <td>CSS</td>
-            <td>JavaScript</td>
-        </tr>
-        <tr>
-            <td>Dart(Flutter)</td>
-            <td>SQL</td>
-            <td>NoSQL</td>
-        </tr>
-        <tr>
-            <td>Android Studio</td>
-            <td>Shopify</td>
-            <td>Wordpress</td>
-        </tr>
-    </table>
-    <hr>
-    <!-- Link to contact page -->
-    <div id=cont>
-        <a href="./pages/contact.html">
-            <h2>How To Contact Me</h2>
-        </a>
-    </div>
-    <!-- Link to emoji filled fun version of this page -->
-    <div id=fun>
-        <a href="./pages/fun.html">
-            <h2>🎉 Fun Version 🎉</h2>
-        </a>
-    </div>
-    <script src="" async defer></script>
+        <div class="skills">
+          <h2>My Skills.</h2>
+          <div class="skill-row">
+            <img id="comp" src="./images/code.png" alt="Image of various coding blocks">
+            <h3>Web Development</h3>
+            <p>I have been working at a web development agency since June of 2020, I have experience with wordpress, shopify, and some with full stack development. I love
+              helping others, so making websites was just a natural fit for myself.
+            </p>
+          </div>
+          <div class="skill-row">
+            <img id="java-img" src="./images/java.png" alt="Image of the java language icon">
+            <h3>Java</h3>
+            <p>Java is the language that I first learned programming with, I am quite comfortable with it, and I am able to work quite fast with it.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>My email and social medias</h3>
+          <p>Feel free to contact me, I respond to emails within a few hours usually.</p>
+          <a class="Contact_btn" href="mailto:sgill.karanjit@gmail.com">CONTACT ME</a>
+        </div>
+      </div>
+      
+      
+      <div class="botCont">
+        <a class="footer-link" href="https://www.linkedin.com/in/karanjit-s-gill/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/KsGill96">Twitter</a>
+        <a class="footer-link" href="https://github.com/hyperlolo">Github</a>
+        <p class = "footer-text" id="copyright">© 2021 Karanjit Gill</p>
+      </div>
+      
+      
 </body>
 
 </html>
